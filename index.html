@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Ti</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header-image">
+        <img src="https://i.ibb.co/0jRL0fV/heart-banner.png" alt="Decoración romántica">
+    </div>
+
+    <img src="https://i.ibb.co/3fxp4hP/butterfly.png" class="butterfly butterfly1" alt="Mariposa">
+    <img src="https://i.ibb.co/3fxp4hP/butterfly.png" class="butterfly butterfly2" alt="Mariposa">
+    <img src="https://i.ibb.co/3fxp4hP/butterfly.png" class="butterfly butterfly3" alt="Mariposa">
+    <img src="https://i.ibb.co/3fxp4hP/butterfly.png" class="butterfly butterfly4" alt="Mariposa">
+
+    <h1>Para Ti</h1>
+
+    <div class="section">
+        Aquí puedes escribir todo lo que sientes, un texto largo, continuo, contando cómo te hace sentir su presencia, lo que más admiras de ella y por qué decidiste hacerle esta página.
+    </div>
+    <div class="section">
+        En este apartado puedes seguir contando alguna historia especial que vivieron juntos, algún recuerdo lindo que quieras destacar, algo que siempre recuerdas y que te hace sonreír.
+    </div>
+    <div class="section">
+        Aquí puedes hablar de tus sueños, lo que te gustaría compartir con ella, tus deseos, tus intenciones sinceras, lo que esperas del futuro a su lado, sin miedo a expresarte.
+    </div>
+    <div class="section">
+        Por último, puedes dejar un mensaje especial, algo que resuma lo que sientes, algo bonito que ella pueda leer y guardar en su corazón.
+    </div>
+
+    <button onclick="mostrarMensaje()">Haz clic aquí</button>
+
+    <audio id="miCancion" src="tu-cancion.mp3"></audio>
+
+    <script>
+        function mostrarMensaje() {
+            alert("¡Me encantas! Gracias por existir.");
+            document.getElementById('miCancion').play();
+        }
+    </script>
+</body>
+</html>
